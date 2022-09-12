@@ -12,8 +12,8 @@ pub fn factorial(x: u128) -> u128 {
 /// ```
 /// assert_eq!(C(39, 5), 575757)
 /// ```
-pub fn C(n: u128, r: u128) -> u128 {
-    n**r
+pub fn C(n: u128, r: u32) -> u128 {
+    u128::pow(n, r)
 }
 
 /// Permutation\
